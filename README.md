@@ -1,3 +1,28 @@
+- Ruby ~>2.1
+
+Start
+---
+```
+rbenv local 2.1.5
+rails -v # use rails ~>4.2
+rails new shop
+add gem 'spree' into Gemfile
+bundle install
+rails g spree:install
+rails server
+```
+
+
+
+
+
+
+
+
+
+
+---
+
 **THIS README IS FOR THE MASTER BRANCH OF SPREE AND REFLECTS THE WORK CURRENTLY
 EXISTING ON THE MASTER BRANCH. IF YOU ARE WISHING TO USE A NON-MASTER BRANCH OF
 SPREE, PLEASE CONSULT THAT BRANCH'S README AND NOT THIS ONE.**
